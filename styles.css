@@ -14,8 +14,28 @@ body {
     position: relative;
 }
 
+.scoring {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    display: flex;
+}
+
+.scores{
+    width:300px;
+    height:400px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.playerScore{
+    border-right: 2px solid black;
+}
+
 .ball {
-    background-color: green;
+    background-color: rgb(28, 139, 230);
     height: 20px;
     width: 20px;
     position: absolute;
@@ -38,4 +58,3 @@ body {
 .computer-paddle {
     right: 0;
 }
-
